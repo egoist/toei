@@ -6,7 +6,7 @@ toei [ tɔɪ ] frees you from requiring the whole jQuery library into your littl
 
 **How to add a new feature**
 
-Create a file `src/**/*.js` to implement your idea, and create `tests/**/test-*.js` to test it.
+Create a file `src/**/*.js` to implement your idea, and create `tests/**/test-*.js` to test it. Check out [TODO](/TODO.md).
 
 ## Development
 
