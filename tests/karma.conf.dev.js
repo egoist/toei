@@ -1,3 +1,7 @@
 var conf = require('./karma.conf')
-conf.singleRun = false
-module.exports = conf
+module.exports = function (config) {
+  conf(config)
+  config.set({
+    'singleRun': false
+  })
+}
