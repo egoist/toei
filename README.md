@@ -1,6 +1,6 @@
 # toei
 
-toei [ tɔɪ ] frees you from requing the whole jQuery library into your little project, we don't say `You don't need jQuery`, it's kinda like a belated advice. toei brings you what you need most as sperated packages.
+toei [ tɔɪ ] frees you from requiring the whole jQuery library into your little project, we don't say `You don't need jQuery`, it's kinda like a belated advice. toei brings you what you need most as sperated packages.
 
 ## Development
 
