@@ -6,7 +6,8 @@ toei [ tɔɪ ] frees you from requiring the whole jQuery library into your littl
 
 |Command|Description|
 |---|---|
-|npm run karma|run karma tests|
+|npm i -g phantomJS|Install headless phantomJS browser for test globally|
+|npm run karma|Run karma tests|
 
 ## License
 
