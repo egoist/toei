@@ -1,0 +1,40 @@
+{
+  "name": "toei",
+  "version": "0.0.1",
+  "description": "You don't need the whole jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "karma": "node ./node_modules/karma/bin/karma start tests/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/toei.git"
+  },
+  "keywords": [
+    "jquery",
+    "anti-jquery"
+  ],
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/toei/issues"
+  },
+  "homepage": "https://github.com/egoist/toei#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.4.1",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.1",
+    "karma-nyan-reporter": "^0.2.3",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "rollup": "^0.21.2",
+    "rollup-plugin-babel": "^2.2.0",
+    "webpack": "^1.12.9"
+  }
+}
