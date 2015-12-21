@@ -1,9 +1,10 @@
 import each from '../dom/each'
+import { $ } from '../simple'
 
 export function getStyle (el) {
-  const win = el.ownerDocument.defaultView
+  el = $(el)
   // null means not return pseudo styles
-  return win.getComputedStyle(el, null)
+  return window.getComputedStyle(el, null)
 }
 
 export function setStyle (els, name, value) {

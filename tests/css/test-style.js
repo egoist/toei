@@ -8,7 +8,7 @@ beforeEach(done => {
 })
 
 describe('style', () => {
-  it('setStyle', done => {
+  it('set style', done => {
     setStyle('.item', 'display', 'flex')
     each('.item', el => {
       expect(
@@ -16,5 +16,10 @@ describe('style', () => {
       ).to.equal('flex')
       done()
     })
+  })
+  it('get style', done => {
+    const { display } = getStyle('.wrap')
+    expect(display).to.equal('block')
+    done()
   })
 })
