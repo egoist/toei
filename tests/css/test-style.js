@@ -1,5 +1,5 @@
 import { getStyle, setStyle } from '../../src/css/style'
-import createElements from '../helpers/createElements'
+import createElements from '../helpers/create-elements'
 import each from '../../src/dom/each'
 
 beforeEach(done => {

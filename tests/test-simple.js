@@ -1,5 +1,5 @@
 import * as simple from '../src/simple'
-import createElements from './helpers/createElements'
+import createElements from './helpers/create-elements'
 
 beforeEach(done => {
   createElements()

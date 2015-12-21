@@ -1,6 +1,6 @@
 import each from '../../src/dom/each'
 import { $$ } from '../../src/simple'
-import createElements from '../helpers/createElements'
+import createElements from '../helpers/create-elements'
 
 beforeEach(done => {
   createElements()
